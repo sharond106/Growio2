@@ -1,4 +1,4 @@
-// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+// Copyright Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -14,63 +14,34 @@ struct FBPSteamWorkshopID;
 #endif
 #define ADVANCEDSTEAMSESSIONS_AdvancedSteamWorkshopLibrary_generated_h
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_207_GENERATED_BODY \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_208_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FBPSteamWorkshopItemDetails_Statics; \
 	ADVANCEDSTEAMSESSIONS_API static class UScriptStruct* StaticStruct();
 
 
 template<> ADVANCEDSTEAMSESSIONS_API UScriptStruct* StaticStruct<struct FBPSteamWorkshopItemDetails>();
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_63_GENERATED_BODY \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_63_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FBPSteamWorkshopID_Statics; \
 	ADVANCEDSTEAMSESSIONS_API static class UScriptStruct* StaticStruct();
 
 
 template<> ADVANCEDSTEAMSESSIONS_API UScriptStruct* StaticStruct<struct FBPSteamWorkshopID>();
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_RPC_WRAPPERS \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_SPARSE_DATA
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execGetNumSubscribedWorkshopItems) \
-	{ \
-		P_GET_PROPERTY_REF(UIntProperty,Z_Param_Out_NumberOfItems); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		UAdvancedSteamWorkshopLibrary::GetNumSubscribedWorkshopItems(Z_Param_Out_NumberOfItems); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetSubscribedWorkshopItems) \
-	{ \
-		P_GET_PROPERTY_REF(UIntProperty,Z_Param_Out_NumberOfItems); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(TArray<FBPSteamWorkshopID>*)Z_Param__Result=UAdvancedSteamWorkshopLibrary::GetSubscribedWorkshopItems(Z_Param_Out_NumberOfItems); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetNumSubscribedWorkshopItems); \
+	DECLARE_FUNCTION(execGetSubscribedWorkshopItems);
 
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execGetNumSubscribedWorkshopItems) \
-	{ \
-		P_GET_PROPERTY_REF(UIntProperty,Z_Param_Out_NumberOfItems); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		UAdvancedSteamWorkshopLibrary::GetNumSubscribedWorkshopItems(Z_Param_Out_NumberOfItems); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execGetSubscribedWorkshopItems) \
-	{ \
-		P_GET_PROPERTY_REF(UIntProperty,Z_Param_Out_NumberOfItems); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(TArray<FBPSteamWorkshopID>*)Z_Param__Result=UAdvancedSteamWorkshopLibrary::GetSubscribedWorkshopItems(Z_Param_Out_NumberOfItems); \
-		P_NATIVE_END; \
-	}
+	DECLARE_FUNCTION(execGetNumSubscribedWorkshopItems); \
+	DECLARE_FUNCTION(execGetSubscribedWorkshopItems);
 
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_INCLASS_NO_PURE_DECLS \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUAdvancedSteamWorkshopLibrary(); \
 	friend struct Z_Construct_UClass_UAdvancedSteamWorkshopLibrary_Statics; \
@@ -79,7 +50,7 @@ public: \
 	DECLARE_SERIALIZER(UAdvancedSteamWorkshopLibrary)
 
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_INCLASS \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_INCLASS \
 private: \
 	static void StaticRegisterNativesUAdvancedSteamWorkshopLibrary(); \
 	friend struct Z_Construct_UClass_UAdvancedSteamWorkshopLibrary_Statics; \
@@ -88,7 +59,7 @@ public: \
 	DECLARE_SERIALIZER(UAdvancedSteamWorkshopLibrary)
 
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_STANDARD_CONSTRUCTORS \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAdvancedSteamWorkshopLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAdvancedSteamWorkshopLibrary) \
@@ -101,7 +72,7 @@ private: \
 public:
 
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_ENHANCED_CONSTRUCTORS \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UAdvancedSteamWorkshopLibrary(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -114,26 +85,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UAdvancedSteamWorkshopLibrary); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UAdvancedSteamWorkshopLibrary)
 
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_PRIVATE_PROPERTY_OFFSET
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_335_PROLOG
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_GENERATED_BODY_LEGACY \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_PRIVATE_PROPERTY_OFFSET
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_336_PROLOG
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_PRIVATE_PROPERTY_OFFSET \
-	VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_RPC_WRAPPERS \
-	VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_INCLASS \
-	VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_STANDARD_CONSTRUCTORS \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_PRIVATE_PROPERTY_OFFSET \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_SPARSE_DATA \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_RPC_WRAPPERS \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_INCLASS \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_GENERATED_BODY \
+#define Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_PRIVATE_PROPERTY_OFFSET \
-	VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_RPC_WRAPPERS_NO_PURE_DECLS \
-	VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_INCLASS_NO_PURE_DECLS \
-	VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_338_ENHANCED_CONSTRUCTORS \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_PRIVATE_PROPERTY_OFFSET \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_SPARSE_DATA \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_RPC_WRAPPERS_NO_PURE_DECLS \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_INCLASS_NO_PURE_DECLS \
+	Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h_339_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -141,7 +114,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ADVANCEDSTEAMSESSIONS_API UClass* StaticClass<class UAdvancedSteamWorkshopLibrary>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID VRExpPluginExp_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h
+#define CURRENT_FILE_ID Rollio_Plugins_AdvancedSessions_AdvancedSteamSessions_Source_AdvancedSteamSessions_Classes_AdvancedSteamWorkshopLibrary_h
 
 
 #define FOREACH_ENUM_FBPWORKSHOPFILETYPE(op) \
@@ -166,6 +139,7 @@ enum class FBPWorkshopFileType : uint8;
 template<> ADVANCEDSTEAMSESSIONS_API UEnum* StaticEnum<FBPWorkshopFileType>();
 
 #define FOREACH_ENUM_FBPSTEAMRESULT(op) \
+	op(FBPSteamResult::K_EResultInvalid) \
 	op(FBPSteamResult::k_EResultOK) \
 	op(FBPSteamResult::k_EResultFail) \
 	op(FBPSteamResult::k_EResultNoConnection) \
