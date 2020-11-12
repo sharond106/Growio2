@@ -2,11 +2,11 @@
 	"RemapUnityFiles": 
 	{
 		"Module.AdvancedSteamSessions.cpp.obj": [
+			"AdvancedSteamFriendsLibrary.cpp.obj",
 			"AdvancedSteamSessions.cpp.obj",
 			"AdvancedSteamWorkshopLibrary.cpp.obj",
 			"SteamRequestGroupOfficersCallbackProxy.cpp.obj",
-			"SteamWSRequestUGCDetailsCallbackProxy.cpp.obj",
-			"AdvancedSteamFriendsLibrary.cpp.obj"
+			"SteamWSRequestUGCDetailsCallbackProxy.cpp.obj"
 		],
 		"Module.AdvancedSteamSessions.gen.cpp.obj": [
 			"AdvancedSteamFriendsLibrary.gen.cpp.obj",
